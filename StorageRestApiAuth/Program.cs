@@ -34,7 +34,7 @@
 
             // Construct the URI. This will look like this:
             //   https://myaccount.blob.core.windows.net/resource
-            String uri = string.Format("http://{0}.blob.core.windows.net?comp=list", storageAccountName);
+            String uri = string.Format("https://{0}.blob.core.windows.net?comp=list", storageAccountName);
 
             // Set this to whatever payload you desire. Ours is null because 
             //   we're not passing anything in.
